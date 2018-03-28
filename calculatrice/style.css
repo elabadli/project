@@ -1,0 +1,22 @@
+body {
+  background-color: rosybrown;
+  font-family: Cambria; }
+  body #calculatrice {
+    margin-top: 50px; }
+    body #calculatrice ul {
+      display: block;
+      list-style: none; }
+      body #calculatrice ul #cal_field {
+        display: inline;
+        width: 210px; }
+      body #calculatrice ul li {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        background-color: aqua;
+        border: 1px solid black;
+        padding-top: 15px; }
+        body #calculatrice ul li:hover {
+          cursor: pointer; }
+
+
