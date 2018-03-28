@@ -1,0 +1,105 @@
+.logo{
+	width: 10%;
+	position: absolute;
+	display:block;
+	z-index:1;
+	margin-left:10px;
+}
+ul li 
+{
+	display: inline-block;
+	background-color: red;
+	text-shadow: 0 2px 1px black;
+	margin-left:50px;
+	padding:5px;
+	
+
+}
+ul{
+
+background-color: red;
+text-align: center;
+margin-bottom: 0px;
+width: 100%;
+
+}
+.nav_header
+{
+	width:100%;
+	font-size:1.3em;
+	text-align:center;
+
+}
+ul li a{
+	color: white;
+	margin: 20px;
+	text-decoration:none;
+
+}
+footer
+{
+	background-color: red;
+}
+h1
+{
+	background-color: red;
+	color: white;
+	text-shadow: 0 3px 3px black;
+	text-align: center;
+	
+
+}
+.synopsis{
+	width: 50%;
+}
+.deku{
+	float: right;
+	margin: -400px 0px;
+}
+.para{
+	width:100%;
+	font-size:1.6em;
+	font-family: 'Oswald', sans-serif;
+	margin:30px;
+	padding-top:20px;
+	text-align: center;
+
+}
+.super{
+	margin-top: 190px;
+}
+h2{
+	width: 100%;
+	text-shadow: blue 1px 0 10px;
+	margin-left: 50px;
+	color: white;
+	text-decoration: underline;
+	margin-top: 6px;
+
+}
+#conteneur{
+	display: flex;
+}
+
+
+.dessous
+{
+    clear: both;
+}
+.table{
+	margin-top:70px; 
+}
+#conteneur1{
+	display: flex;
+}
+#conteneur2{
+	display: flex;
+}
+th {
+	text-shadow: blue 1px 0 10px;
+	color: white;
+	text-decoration: underline;
+}
+td{
+	font-style: italic;
+}

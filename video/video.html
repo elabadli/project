@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="video.css">
+<link rel="icon" type="image/x-icon" href="images/favicon.png" /> <!-- fonction icone web !-->
+        <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet"> <!-- fonction font de police 1 !-->
+ 		<link href="https://fonts.googleapis.com/css?family=Oswald:300" rel="stylesheet"> 
+	<title>video en js</title>
+ 
+</head>
+<body>
+<header>
+<a href="http://animedigitalnetwork.fr/video/my-hero-academia" target="_blank" title="My hero Academia">  <!-- logo + lien -->
+    <img class="logo" src="images/logo.png" alt="logo"/>
+    </a>
+	<nav class="nav_header"> <!-- navigateur en-tete -->	 
+
+                    <ul>
+      		    	<li ><a href="#synopsis">Synopsis</a></li> <!-- nav synopsis + ancre -->
+      		 	    <li><a href="#hero">Les Supers héros &#38; vilains</a></li> <!-- nav hero vilain + ancre -->
+                    </ul>
+
+		        </nav>
+</header>
+
+
+<!--on peut mettre à l'interieur de la balise video contrlos pour qu'il affiche le boutton de play et de son mais moi j'ai choisi de le faire avec le js-->
+
+<video  id="video" preload="auto" poster="images/image_video.jpg" >
+	<source src ="videos/banniere.mp4" type="video/mp4">
+</video>
+	<button id="play">Play</button>
+	<button id="pause">Pause</button> 
+	<button id="playbackrate">3.0</button> 
+
+	<h1 id="synopsis">Synopsis</h1>
+
+	<div class="synopsis">
+	<p class="para">
+	Dans un monde où les super-pouvoirs sont normaux, où l'humanité est souvent menacée par l'attaque de divers monstres, la plupart des humains sont dotés d'un pouvoir particulier nommé "Alter". Grâce à celui-ci, devenir un héros n'est pas impossible pour eux. Le manga suit les aventures de Izuku Midoriya, l'un des rares humains ne possédant pas d'alter, qui rêve pourtant de rejoindre la filière super-héroïque du grand lycée Yūei et de devenir un jour un des plus grands héros.</p></div><div class="deku"><img src="images/deku-amelio.png"></div>
+
+	<h1 class="super" id="hero">Les Supers héros &#38; vilains</h1>
+	<div id="conteneur" >
+		<div class="element1">
+		<img src="images/logo_all_might.png">
+		<h2 class="dessous">All might</h2>
+		</div>
+	
+	
+	<div class="table">
+	<table>
+		<tr>
+			<th>Taille</th>
+			<td>220cm</td>
+		</tr>
+		<tr>
+			<th>Age</th>
+			<td>inconnu</td>
+		</tr>
+		<tr>
+			<th>Alter</th>
+			<td>one of All</td>
+		</tr>
+		<tr>
+			<th>Histoire</th>
+			<td>Toshinori Yagi, plus connus sous le surnom de All Might, est le super-héros le plus puissant au monde, ainsi que le symbole de la paix. Depuis son début de carrière en tant que super-héros, le taux de criminalité est en chute constante. Il a étudié à l'Académie des super-héros Yûei, et en est maintenant le professeur de la classe 1-A.</td>
+		</tr>
+	</table></div></div>
+
+<div id="conteneur1" >
+<div class="table">
+	<table>
+		<tr>
+			<th>Taille</th>
+			<td>220cm</td>
+		</tr>
+		<tr>
+			<th>Age</th>
+			<td>inconnu</td>
+		</tr>
+		<tr>
+			<th>Alter</th>
+			<td>one of All</td>
+		</tr>
+		<tr>
+			<th>Histoire</th>
+			<td>Toshinori Yagi, plus connus sous le surnom de All Might, est le super-héros le plus puissant au monde, ainsi que le symbole de la paix. Depuis son début de carrière en tant que super-héros, le taux de criminalité est en chute constante. Il a étudié à l'Académie des super-héros Yûei, et en est maintenant le professeur de la classe 1-A.</td>
+		</tr>
+	</table></div>
+	<div class="element1">
+		<img src="images/Tomuka.png">
+		<h2 class="dessous">Tomuka Shigaraki</h2>
+		</div>
+	</div>
+
+
+<div id="conteneur2" >
+		<div class="element1">
+		<img src="images/eraserhead.png">
+		<h2 class="dessous">Eraserhed</h2>
+		</div>
+	
+	
+	<div class="table">
+	<table>
+		<tr>
+			<th>Taille</th>
+			<td>220cm</td>
+		</tr>
+		<tr>
+			<th>Age</th>
+			<td>inconnu</td>
+		</tr>
+		<tr>
+			<th>Alter</th>
+			<td>one of All</td>
+		</tr>
+		<tr>
+			<th>Histoire</th>
+			<td>Toshinori Yagi, plus connus sous le surnom de All Might, est le super-héros le plus puissant au monde, ainsi que le symbole de la paix. Depuis son début de carrière en tant que super-héros, le taux de criminalité est en chute constante. Il a étudié à l'Académie des super-héros Yûei, et en est maintenant le professeur de la classe 1-A.</td>
+		</tr>
+	</table></div></div>
+	
+<script type="text/javascript" src="video.js"></script>
+</body>
+<footer>
+	<ul>
+	<li><a href="https://www.youtube.com/?gl=FR&hl=fr" title="lien vers youtube"><img src="images/youtube-logo.png"></a></li>
+	<li><a href="www.twitter.com" title="lien vers twitter"><img src="images/twitter-logo.png"></a></li>
+	<li><a href="https://www.facebook.com/confirmemail.php?next=https%3A%2F%2Fwww.facebook.com%2F&rd"><img src="images/facebook-logo.png"></a></li>
+	</ul>
+</footer>
+</html>
